@@ -1,0 +1,107 @@
+ .main {
+            width: 1920px;
+            height: 1050px;
+
+        }
+        .bg {
+            width: 100%;
+            height: 100%;
+            position: fixed;
+
+        }
+        .main h1 {
+            z-index: 2;
+            position: absolute;
+            left: 2%;
+            top: 3%;
+            font-family: 'Vitro_core';
+            font-weight: normal;
+            font-style: normal;
+            color: white;
+            opacity: 0.2;
+            font-size: 50pt;
+        }
+        .main h1:hover {
+            opacity: 1;
+            cursor: pointer;
+            transition: 0.3s all;
+        }
+        .main h1:hover .red{
+            color: #EE3E3E;
+        }
+       
+        .main h2 {
+            z-index: 2;
+            position: absolute;
+            right: 3%;
+            top: 82%;
+            font-family: 'Vitro_core';
+            font-weight: normal;
+            font-style: normal;
+            color: white;
+            opacity: 0.2;
+            font-size: 50pt;
+            transform: rotate(180deg);
+        }
+        .main h2:hover {
+            opacity: 1;
+            cursor: pointer;
+            transition: 0.3s all;
+        }
+        .main h2:hover .red{
+            color: #EE3E3E;
+        }
+        .Ican{
+            z-index: 3;
+            position: absolute;
+            margin-top: 40vh;
+            margin-left: 23vw;
+            font-size: 100pt;
+            font-family: 'wart';
+            color: #EE3E3E;
+            cursor: pointer;
+            width: 55vw;
+        }
+        .Ican:hover {
+            background-image: linear-gradient(90deg, #EE3E3E, #F79A63, #9ACA3C, #79CAC0, #B58DC0);
+           -webkit-background-clip: text;
+            color: transparent;
+        }
+        .click{
+            z-index: 3;
+            position: absolute;
+            margin-top: 55vh;
+            margin-left: 45vw;
+            font-family: 'Vitro_core';
+            font-weight: normal;
+            font-style: normal;
+            color: white;
+            opacity: 0.2;
+            width: 6vw;
+        }
+
+        .click img {
+            width: 2vw;
+            height: 7vh;
+            margin-top: 10px;
+            margin-left: 23px;
+            color: white;
+        }
+        .click:hover {
+            opacity: 1;
+        }
+        .gra {
+            z-index: 1;
+            position: absolute;}
+            
+        #gra1 {
+            width: 13vw;
+            height: 20vh;
+        } 
+        
+        #gra2 {
+            width: 30vw;
+            height: 40vh;
+            margin-left: 80vw;
+            margin-top: 50vh;
+        }
